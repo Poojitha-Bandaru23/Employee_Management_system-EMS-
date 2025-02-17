@@ -1,0 +1,87 @@
+/* Admin Dashboard - Full Screen */
+.admin-dashboard {
+  display: flex;
+  height: 100vh; /* Ensures full viewport height */
+  background: #5be1f5;
+  background-color: #5be1f5; /* Light background for the entire dashboard */
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background: #1e2a38; /* Dark sidebar */
+  color: white;
+  min-height: 100vh;
+}
+
+/* Dashboard Content */
+.dashboard-content {
+  flex-grow: 1;
+  color: cadetblue;
+  padding: 20px;
+  text-align: center;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  background: #e3e7ea; /* Subtle background color for the main content */
+}
+
+/* Dashboard Overview Cards */
+.dashboard-overview {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  background: #ffffff; 
+  background-color: aqua;/* White background for better contrast */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.overview-item {
+  
+  background-color: rgb(97, 203, 218);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Fix Footer Alignment */
+.footer {
+  margin-top: auto; /* Push footer to bottom */
+  background: #1e2a38;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Add Employee Form Styling */
+.AddEmp-content {
+  width: 80%;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 12px;
+  background: none; /* Remove background color */
+  box-shadow: none;
+}
+
+/* Fieldset Styling */
+fieldset {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background: none;
+}
+/* Remove background color from fieldsets and sections */
+fieldset, .section-title {
+  background: none !important;
+  border: 1px solid #ccc; /* Keep a light border */
+  padding: 10px;
+  border-radius: 8px;
+}

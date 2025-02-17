@@ -1,0 +1,29 @@
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a, .logout-btn {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  text-align: center;
+  width: 100%; /* Make buttons full width */
+}
+
+.sidebar ul li a:hover, .logout-btn:hover {
+  background: #374e6d;
+}
+
+.logout-btn {
+  background: red;
+  border: none;
+  cursor: pointer;
+}

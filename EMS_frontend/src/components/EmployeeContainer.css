@@ -1,0 +1,32 @@
+.employee-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .employee-container h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 40px;
+  }
+  
+  .employee-container p {
+    font-size: 20px;
+    color: #555;
+    margin: 5px 0;
+    padding: 8px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-container p span {
+    font-weight: bold;
+    color: #222;
+  }
+  
